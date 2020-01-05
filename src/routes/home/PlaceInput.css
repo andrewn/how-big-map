@@ -1,0 +1,43 @@
+.input {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: white;
+
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+}
+
+.input::-webkit-input-placeholder,
+.input::-moz-placeholder,
+.input:-ms-input-placeholder,
+.input:-moz-placeholder {
+  color: white;
+}
+
+.results {
+  list-style: none;
+
+  width: 100%;
+  margin: 1rem;
+  padding: 0;
+}
+
+.result {
+  margin: 0;
+  padding: 0.7rem 1rem;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  color: white;
+
+  border-bottom: 3px solid white;
+
+  cursor: pointer;
+}
